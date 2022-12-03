@@ -447,7 +447,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                               [
                            [
                             InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
+                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/nasrani_update)
                           ]
                         ]
                     )
@@ -493,7 +493,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   [
                            [
                             InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
+                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/nasrani_update")
                           ]
                         ]
                     )
@@ -839,7 +839,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐇𝐨𝐦𝐞', callback_data='start'),
             InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐮𝐬', callback_data='stats')
          ],[
-            InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/MyBotzz/RashmikaBot")
+            InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://t.me/nasrani_update")
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -861,7 +861,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐇𝐨𝐦𝐞', callback_data='start'),
             InlineKeyboardButton('𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
         ],[
-            InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/MyBotzz/RashmikaBot")
+            InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://t.me/nasrani_update")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -876,7 +876,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('❣𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎❣', url="https://github.com/MyBotzz/RashmikaBot") 
+            InlineKeyboardButton('❣𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎❣', url="https://t.me/nasrani_update") 
         ],[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='about')
         ]]
@@ -1050,7 +1050,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/AFxSU")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/nasrani_update")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
